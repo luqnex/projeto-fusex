@@ -1,0 +1,74 @@
+/*
+* 
+* @author Rodrigo Lima
+*/
+
+
+/* Layout */
+
+body {
+    overflow-x: hidden;
+}
+
+.button-subir {
+    width: 100vw;
+    height: 95vh;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.button-subir a {
+    margin-right: 60px;
+    position: fixed;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4, h5, address {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.btn {
+    margin: 0 5px 0 5px;
+}
+
+.botao a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.botao a {
+    color: white;
+    text-decoration: none;
+}
+
+.botao a:hover {
+    color: black;
+}
+
+.botoes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.content-clinica {
+    margin: 30px 0 50px 0;
+}
