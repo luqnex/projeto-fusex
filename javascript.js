@@ -4,7 +4,10 @@ const scrollSuave = (elem) => {
         left: 0,
         behavior: 'smooth'
     })
-} 
+}
+
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
 
 function abrirListaHci() {
     document.querySelector('.medicos-conveniados-hci').style.display = 'block'
