@@ -28,8 +28,10 @@
     display: none;
 }
 
-#bg-fusex {
+#bgFusex {
     width: 100%;
+    
+    margin-bottom: 30px;
 }
 
 .buttons {

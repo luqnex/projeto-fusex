@@ -1,3 +1,15 @@
+function slide1() {
+    document.getElementById('bgFusex').src='./imagens/fusex.jpg'
+    setTimeout('slide2()', 5000)
+}
+
+function slide2() {
+    document.getElementById('bgFusex').src="./imagens/bg-covid.jpeg"
+    setTimeout('slide1()', 10000)
+}
+
+document.onload = slide1()
+
 const scrollSuave = (elem) => {
     window.scroll({
         top: document.querySelector(elem).offsetTop,
